@@ -6,7 +6,8 @@ import web.model.Car;
 import java.util.List;
 
 public interface CarDao {
-        List<Car> findAll();
-        List<Car> findByCount(int count);
-    }
+    List<Car> findAll();
+    List<Car> findByCount(int count);
 
+    List<Car> getAllCars();
+}
